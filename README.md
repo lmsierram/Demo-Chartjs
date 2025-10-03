@@ -24,4 +24,5 @@ Se utiliza principalmente en proyectos que necesitan **visualización de datos**
 ## Alcance del demo
 Este demo incluye un archivo `index.html` que muestra un **gráfico de barras** usando datos de ejemplo:  
 - Se representan 6 categorías de colores con valores numéricos diferentes.  
-- Sirve como base para modificar y crear nuevos tipos de gráficos según lo que se necesite en futuros proyectos.  
+- Sirve como base para modificar y crear nuevos tipos de gráficos según lo que se necesite en futuros proyectos.
+- Se puede ver el HTML en el siguiente Link: https://lmsierram.github.io/Demo-Chartjs/
