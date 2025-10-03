@@ -1,4 +1,4 @@
-# 📊 Proyecto Demo con Chart.js
+# Proyecto Demo con Chart.js
 
 ## ¿Qué es Chart.js?
 Chart.js es una librería de JavaScript que permite crear gráficos interactivos y personalizables de una manera sencilla.  
