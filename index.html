@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Demo Chart.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>Ejemplo de gráfico con Chart.js</h2>
+  <canvas id="myChart" width="400" height="200"></canvas>
+
+  <script>
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Rojo', 'Azul', 'Amarillo', 'Verde', 'Morado', 'Naranja'],
+            datasets: [{
+                label: '# de votos',
+                data: [12, 19, 3, 5, 2, 3],
+                backgroundColor: ['red', 'blue', 'yellow', 'green', 'purple', 'orange']
+            }]
+        }
+    });
+  </script>
+</body>
+</html>
